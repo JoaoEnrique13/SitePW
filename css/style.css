@@ -1,0 +1,166 @@
+@font-face {
+    font-family: Alex Brush;
+    src: url('AlexBrush-Regular.ttf') format('opentype');
+} 
+
+body
+{
+    overflow-x: hidden;
+    min-height: 100vh!important;
+}
+
+.text-brush
+{
+    font-family: Alex Brush;
+}
+
+.navbar-brand
+{
+    color: gold;
+    font-size: 30px!important;
+    padding: 0!important;
+    transition: all linear 1s;
+}
+
+.navbar-brand:hover
+{
+    color: gold;
+    text-shadow: 1px 0 2px #fff;
+}
+
+.navbar
+{
+    padding-bottom: 0!important;
+}
+
+.img-galeria
+{
+    transition: all linear 1s;
+    cursor: pointer;
+}
+ 
+figcaption:hover + .img-galeria, .img-galeria:hover
+{
+    transform: scale(1)!important;
+    overflow: hidden;
+    
+}
+
+.col-4
+{
+    overflow: hidden;
+    border: 5px solid #fff;
+    display: flex;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+
+.legenda, .legenda1
+{
+    font-size: 13px;
+    z-index: 999!important;
+    display: flex!important;
+    align-items:center;
+    justify-content: center;
+    transition: all linear 1s;
+    color: transparent;
+    padding: 20px;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 0;
+    margin-left: 0;
+    overflow: hidden;
+}
+
+
+
+.transition-left
+{
+    top: 0;
+    height: 100%;
+    width: 0;
+}
+
+.transition-top
+{
+    top: 0;
+    height: 0;
+    width: 100%;
+}
+
+
+.transition-right
+{
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+}
+
+.img-galeria:hover + .legenda, .legenda:hover, figcaption:hover + .legenda
+{ 
+    background-color: #380b61!important;
+    color: #fff;
+    width: 100%!important;
+    height: 100%!important;
+    font-size: 20px;
+}
+
+.footer{
+    color: #fff;
+    background: #380b61;
+}
+
+.bg-roxo
+{
+    background-color: #380b61!important;
+}
+
+a.text-footer, a.text-footer:hover
+{
+    font-size: 20px;
+    text-decoration: underline dotted #fff!important;
+    color: #fff;
+    transition: 1s;
+}
+
+a.text-footer:hover
+{
+    opacity: .7;
+}
+ 
+form
+{
+    border: 1px solid #380b61;
+    padding: 20px 200px;
+}
+
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-loading
+{ 
+    position: absolute;
+}
+
+.spinner-border
+{
+    height: 100px!important;
+    width: 100px!important;
+    color: #380b61 !important;;
+}
+
+.accordion
+{
+    background: #380b61;
+}
